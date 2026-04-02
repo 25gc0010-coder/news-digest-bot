@@ -84,7 +84,7 @@ function startSchedule(client) {
 // ====== Discord login ======
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-client.once("ready", () => {
+client.once("clientReady", () => {
   console.log(`Logged in as ${client.user.tag}`);
   startSchedule(client);
 });

@@ -17,7 +17,7 @@ const REDIS_TOKEN = (process.env.UPSTASH_REDIS_REST_TOKEN || '').trim();
 const DISCORD_TOKEN = (process.env.DISCORD_TOKEN || '').trim();
 
 //ニュースのURLを持ってくるサイト
-const FEED_URL = 'https://x.com/automatonjapan?s=21/feed';
+const FEED_URL = 'https://news.denfaminicogamer.jp/feed';
 
 console.log('CHANNEL_ID exists:', !!CHANNEL_ID);
 console.log('REDIS_URL:', REDIS_URL);
